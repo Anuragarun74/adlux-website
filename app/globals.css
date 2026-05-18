@@ -1,0 +1,26 @@
+
+body{margin:0;background:#f4efe7;color:#1f1c18;font-family:Arial,sans-serif}
+a{text-decoration:none;color:inherit}
+.nav{position:fixed;top:0;left:0;right:0;padding:22px 48px;display:flex;justify-content:space-between;align-items:center;background:rgba(244,239,231,.86);backdrop-filter:blur(12px);z-index:20;border-bottom:1px solid rgba(0,0,0,.08)}
+.logo{font-family:cursive;font-size:42px;color:#b28a4a;text-shadow:0 0 20px rgba(178,138,74,.15)}
+.links{display:flex;gap:24px;font-size:12px;letter-spacing:.16em;text-transform:uppercase}
+.hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr}
+.left{padding:140px 7vw 100px;display:flex;flex-direction:column;justify-content:center}
+.kicker{font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#9d7b49}
+h1{font-size:clamp(64px,8vw,122px);line-height:.92;font-family:Georgia,serif;font-weight:400;letter-spacing:-.05em;margin:22px 0}
+.text{font-size:20px;line-height:1.8;color:#726b61;max-width:640px}
+.buttons{display:flex;gap:16px;flex-wrap:wrap;margin-top:36px}
+.btn{padding:16px 24px;border-radius:999px;border:1px solid #1f1c18;font-size:12px;text-transform:uppercase;letter-spacing:.15em}
+.dark{background:#151311;color:#f4efe7}
+.section{padding:110px 7vw;border-top:1px solid rgba(0,0,0,.08)}
+.two{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px}
+.title{font-size:clamp(40px,5vw,74px);line-height:.95;font-family:Georgia,serif;font-weight:400;letter-spacing:-.04em}
+.gallery{padding:90px 4vw;background:#faf7f1}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:36px}
+.card{background:white;border:1px solid rgba(0,0,0,.08);overflow:hidden}
+.image{height:480px;background-size:cover;background-position:center}
+.copy{padding:26px}
+.copy h3{font-size:30px;font-family:Georgia,serif;font-weight:400;margin:0 0 12px}
+.copy p{color:#726b61;line-height:1.7}
+.footer{padding:32px 7vw;background:#11100e;color:#cbbfae;display:flex;justify-content:space-between;font-size:12px;text-transform:uppercase;letter-spacing:.16em}
+@media(max-width:900px){.hero,.two{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.nav{padding:18px 24px;flex-direction:column;gap:12px}}
