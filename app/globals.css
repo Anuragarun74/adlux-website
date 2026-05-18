@@ -1,0 +1,30 @@
+
+body{margin:0;background:#f4efe7;color:#1f1c18;font-family:Arial,sans-serif}
+.nav{position:fixed;top:0;left:0;right:0;padding:22px 48px;display:flex;justify-content:space-between;background:rgba(244,239,231,.88);backdrop-filter:blur(12px);z-index:20}
+.logo{font-family:cursive;font-size:42px;color:#9d7b49}
+.links{display:flex;gap:24px;font-size:12px;letter-spacing:.15em;text-transform:uppercase}
+.hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr}
+.left{padding:140px 7vw;display:flex;flex-direction:column;justify-content:center}
+.kicker{font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#9d7b49}
+h1{font-size:clamp(64px,8vw,122px);line-height:.92;font-family:Georgia,serif;font-weight:400;margin:20px 0}
+.text{font-size:20px;line-height:1.8;color:#726b61;max-width:640px}
+.buttons{display:flex;gap:16px;margin-top:34px}
+.btn{padding:16px 24px;border-radius:999px;border:1px solid #1f1c18;font-size:12px;text-transform:uppercase}
+.dark{background:#111;color:#f4efe7}
+.right{background:url('https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1400&q=80') center/cover}
+.section{padding:110px 7vw}
+.two{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px}
+.title{font-size:clamp(40px,5vw,74px);font-family:Georgia,serif;font-weight:400}
+.gallery{padding:90px 4vw;background:#faf7f1}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff}
+.image{height:420px;background-size:cover;background-position:center}
+.card:nth-child(1) .image{background-image:url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=80')}
+.card:nth-child(2) .image{background-image:url('https://images.unsplash.com/photo-1516826957135-700dedea698c?auto=format&fit=crop&w=900&q=80')}
+.card:nth-child(3) .image{background-image:url('https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&w=900&q=80')}
+.copy{padding:24px}
+.darksec{display:grid;grid-template-columns:1fr 1fr;background:#161411;color:#f4efe7}
+.darkimg{min-height:760px;background:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80') center/cover}
+.darkcopy{padding:100px 7vw;display:flex;flex-direction:column;justify-content:center}
+.footer{padding:32px 7vw;background:#111;color:#cbbfae;display:flex;justify-content:space-between;font-size:12px;text-transform:uppercase}
+@media(max-width:900px){.hero,.two,.darksec{grid-template-columns:1fr}.grid{grid-template-columns:1fr}}
